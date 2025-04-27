@@ -1,0 +1,14 @@
+Package: lsgeo
+Type: Package
+Title: Latent Space Geometry Analysis in Network Models
+Version: 1.0
+Author: Jitong Jiang
+Maintainer: Jitong Jiang <jitongj@uw.edu>
+Description: lsgeo is an R package for classifying latent space geometries in network models. It offers tools for testing hypotheses in Euclidean, spherical, and hyperbolic geometries using bootstrapping methods. Key functionalities include classifying neural networks like in C. Elegans, simulating positions and distances in various geometrical spaces, and estimating curvature from distance matrices.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.0
+Imports:
+  MASS,
+  igraph
